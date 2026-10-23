@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jolly Mec Control</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #171717;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    .panel {
+      max-width: 360px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #292929;
+      border-radius: 18px;
+    }
+    button {
+      width: 100%;
+      padding: 16px;
+      margin: 8px 0;
+      border: 0;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .on { background: #2e9d62; color: white; }
+    .off { background: #bd4141; color: white; }
+    #status { color: #ffc76a; }
+  </style>
+</head>
+<body>
+  <h1>🔥 Jolly Mec Control</h1>
+  <div class="panel">
+    <h2>La mia stufa</h2>
+    <p id="status">Non collegata</p>
+    <button class="on" onclick="alert('Collegamento non ancora configurato')">
+      Accendi
+    </button>
+    <button class="off" onclick="alert('Collegamento non ancora configurato')">
+      Spegni
+    </button>
+    <p>Controllo tramite Micronova</p>
+  </div>
+</body>
+</html>
+
